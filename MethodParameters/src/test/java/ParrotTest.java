@@ -21,7 +21,7 @@ public class ParrotTest {
     @Test
     public void parrotTestPolly(){
         String input = "polly";
-        String expected = "polly";
+        String expected = "hello";
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
     }
