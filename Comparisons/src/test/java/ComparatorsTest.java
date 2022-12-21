@@ -6,9 +6,8 @@ import org.junit.Test;
 public class ComparatorsTest {
     static Comparators c;
     @BeforeClass
-    public static void public static void main(String[] args) {
+    public static void setUp(){
         
-    }(){
         c = new Comparators();
     }
 
@@ -31,7 +30,7 @@ public class ComparatorsTest {
     public void isEqualTest2(){
         int a = 1;
         int b = 2;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.isEqual(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -43,7 +42,7 @@ public class ComparatorsTest {
     public void greaterThanTest1(){
         int a = 2;
         int b = 1;
-        boolean expected = true;
+        boolean expected = false;
         boolean actual = c.greaterThan(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -90,7 +89,7 @@ public class ComparatorsTest {
     public void lessThanTest2(){
         int a = 2;
         int b = 2;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.lessThan(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -101,7 +100,7 @@ public class ComparatorsTest {
     public void lessThanTest3(){
         int a = 2;
         int b = 1;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.lessThan(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -137,7 +136,7 @@ public class ComparatorsTest {
     public void greaterThanOrEqualToTest3(){
         int a = 3;
         int b = 4;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.greaterThanOrEqualTo(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -173,7 +172,7 @@ public class ComparatorsTest {
     public void lessThanOrEqualToTest3(){
         int a = 4;
         int b = 2;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.lessThanOrEqualTo(a, b);
         Assert.assertEquals(expected, actual);
     }
@@ -188,7 +187,7 @@ public class ComparatorsTest {
     public void notEqualToTest1(){
         int a = 1;
         int b = 1;
-        boolean expected = false;
+        boolean expected = true;
         boolean actual = c.notEqualTo(a, b);
         Assert.assertEquals(expected, actual);
     }

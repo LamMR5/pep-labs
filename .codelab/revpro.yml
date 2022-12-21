@@ -40,12 +40,12 @@
     :git_user_name: LamMR5
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 8
+  :count_tests_passed: 16
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 8
+  :count_tests_passed: 16
   Start:
     :Week: 1
     :Order: 1
@@ -77,23 +77,23 @@
     :Order: 4
     :Type: lab
     :count_tests: 16
-    :count_tests_passed: 8
+    :count_tests_passed: 16
     :tests:
       isEqualTest1: 1
-      isEqualTest2: 0
+      isEqualTest2: 1
       greaterThanTest1: 1
-      greaterThanTest2: 0
-      greaterThanTest3: 0
+      greaterThanTest2: 1
+      greaterThanTest3: 1
       lessThanTest1: 1
-      lessThanTest2: 0
-      lessThanTest3: 0
+      lessThanTest2: 1
+      lessThanTest3: 1
       greaterThanOrEqualToTest1: 1
       greaterThanOrEqualToTest2: 1
-      greaterThanOrEqualToTest3: 0
+      greaterThanOrEqualToTest3: 1
       lessThanOrEqualToTest1: 1
       lessThanOrEqualToTest2: 1
-      lessThanOrEqualToTest3: 0
-      notEqualToTest1: 0
+      lessThanOrEqualToTest3: 1
+      notEqualToTest1: 1
       notEqualToTest2: 1
   CombineStrings:
     :Week: 1
