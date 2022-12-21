@@ -6,7 +6,9 @@ import org.junit.Test;
 public class ComparatorsTest {
     static Comparators c;
     @BeforeClass
-    public static void setUp(){
+    public static void public static void main(String[] args) {
+        
+    }(){
         c = new Comparators();
     }
 
