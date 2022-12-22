@@ -26,11 +26,9 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        if (b) { 
-            return false;
-        }
-        else {
-            return true;}
+        boolean b = true;
+        return false; 
+
         }
 
     /**

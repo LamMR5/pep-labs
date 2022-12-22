@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 8
+  :count_tests_passed: 6
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 8
+  :count_tests_passed: 6
   Start:
     :Week: 1
     :Order: 1
@@ -118,12 +118,12 @@
     :Order: 7
     :Type: lab
     :count_tests: 12
-    :count_tests_passed: 8
+    :count_tests_passed: 6
     :tests:
       returnBooleanTest1: 1
       returnBooleanTest2: 1
-      returnNotTest1: 1
-      returnNotTest2: 1
+      returnNotTest1: 0
+      returnNotTest2: 0
       returnAndTest1: 0
       returnAndTest2: 1
       returnAndTest3: 1
