@@ -7,7 +7,7 @@ public class CombineStrings {
      * @param b the second part of the string to be combined.
      * @return the combination of strings a and b.
      */
-    public String combine(String a, String b){
-        return "";
+    public String combine(String input1, String input2){
+        return (combine(input1, input2));
     }
 }

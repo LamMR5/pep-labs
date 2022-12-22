@@ -9,8 +9,8 @@ public class CombineStringsTest {
      */
     @Test
     public void combineTest1(){
-        String input1 = "abc";
-        String input2 = "xyz";
+        String input1= "abc";
+        String input2= "xyz";
         String expected = "abcxyz";
         String actual = cs.combine(input1, input2);
         Assert.assertEquals(expected,actual);
