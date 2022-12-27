@@ -38,7 +38,6 @@ public class Bird {
      * No need to change anything here, for now.
      */
     public Bird(){
-
     }
     /**
      * @return "Tweet" if ageMonths is less than 3 and "Chirp" if ageMonths is
