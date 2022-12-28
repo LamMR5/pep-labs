@@ -17,8 +17,10 @@ public class InstantiationExample {
      *
      * @return any object.
      */
-    public Object InstantiationExample(){
-         = new ();
-        return null;
+    
+     public Object instantiateANewObject(){
+        InstantiationExample something = new InstantiationExample();
+
+         return something;
     }
 }
