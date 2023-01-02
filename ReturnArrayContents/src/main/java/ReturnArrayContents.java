@@ -29,7 +29,7 @@ public class ReturnArrayContents {
      */
     public String arrayToString(int[] nums){
         for(int i = 0; i < nums.length; i++){
-            int[] str = new int nums [i];
+            
         
         return nums;}
     }
