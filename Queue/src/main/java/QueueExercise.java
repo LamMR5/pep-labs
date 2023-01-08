@@ -2,6 +2,7 @@
  * TODO: switch to deque
  */
 
+import java.util.LinkedList;
 import java.util.Queue;
 
 /**
@@ -29,7 +30,8 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Queue<String> createQueue(){
-        return null;
+        Queue<String> queue = new LinkedList<>();
+        return queue;
     }
 
     /**
