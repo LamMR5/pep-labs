@@ -1,7 +1,7 @@
 CREATE TABLE song
 (
-    
-    song_Title varchar(100) NOT NULL,
-    song_Artist varchar(100) NOT NULL,
-    
+
+title varchar(100),
+artist varchar(100)
+
 );
