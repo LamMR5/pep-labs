@@ -1,0 +1,1 @@
+INSERT INTO song (title,artist ) values ( 'like this', 'like this' );
