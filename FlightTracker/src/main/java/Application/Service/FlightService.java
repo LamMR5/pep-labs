@@ -45,7 +45,8 @@ public class FlightService {
      *         inform our provide the front-end client with information about the added Flight.
      */
     public Flight addFlight(Flight flight){
-        return null;
+        flightDAO.insertFlight(flight);
+        return flight;
     }
 
     /**
@@ -71,7 +72,8 @@ public class FlightService {
      * @return all flights in the database.
      */
     public List<Flight> getAllFlights() {
-        return null;
+        return flightDAO.getAllFlights();
+
     }
 
     /**
