@@ -79,7 +79,7 @@ public class FlightController {
     private void postFlightHandler(Context ctx) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         Flight flight = mapper.readValue(ctx.body(), Flight.class);
-        Flight addedFlight = flightService.addFlight(flight);
+        Flight addedFlight = flightService.addFlight(flight, null);
         if(addedFlight==null){
             ctx.status(400);
         }else{
