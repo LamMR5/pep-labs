@@ -184,7 +184,7 @@ public class FlightAppTest {
         Flight newFlight = new Flight( "dallas", "morgantown");
         Flight persistedFlight = new Flight(1, "dallas", "morgantown");
         Mockito.when(mockFlightDAO.insertFlight(newFlight)).thenReturn(persistedFlight);
-        Flight actualFlight = flightService.addFlight(newFlight, flightDAO);
+        Flight actualFlight = flightService.addFlight(newFlight);
         Assert.assertEquals(persistedFlight, actualFlight);
 //        verify that addFlight was actually used (Mockito.any will accept any parameters)
         Mockito.verify(mockFlightDAO).insertFlight(Mockito.any());

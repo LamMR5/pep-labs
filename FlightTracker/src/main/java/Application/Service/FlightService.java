@@ -41,11 +41,11 @@ public class FlightService {
      * TODO: Use the FlightDAO to add a new flight to the database.
      *
      * @param flight an object representing a Flight.
-     * @param flightDAO2
+     
      * @return the newly added flight if the add operation was successful, including the flight_id. We do this to
      *         inform our provide the front-end client with information about the added Flight.
      */
-    public Flight addFlight(Flight flight, FlightDAO flightDAO2){
+    public Flight addFlight(Flight flight){
         return flightDAO.insertFlight(flight);
         
     }
