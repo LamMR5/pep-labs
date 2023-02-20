@@ -51,7 +51,7 @@ public class Player {
      */
     public Player(String playerName, int level){
         this.playerName = playerName;
-        this.level = 5;
+        this.level = level;
     }
 
 }
